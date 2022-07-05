@@ -9,7 +9,7 @@
   display: flex;
   flex-flow: column wrap;
   font-family: Titan One , cursive;
-  font-size: 30px;
+  font-size: 1.1rem;
   justify-content: center;
   margin: auto;
   text-align: center;
@@ -21,10 +21,9 @@
   display: flex;
   margin: auto;
   order: -1;
-  width: 180px;
+  width: 20%;
 }
 
 .header-info {
   color: #114955;
-  font-size: 35px;
 }
