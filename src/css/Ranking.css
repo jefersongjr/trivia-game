@@ -8,6 +8,38 @@
 .ranking-tittle {
   color: #2f4858;
   font-family: Pacifico , sans-serif;
-  font-size: 75px;
+  font-size: 3rem;
 }
 
+.ranking-container {
+  background-color: #307a88;
+  border: 2px solid #2f4858;
+  color: white;
+  display: flex;
+  font-family: Titan One , cursive;
+  font-size: 1.6rem;
+  margin: auto;
+  opacity: 0.9;
+  width: 40%;
+}
+
+.ranking-container:first-of-type {
+  border-radius: 20px 20px 0 0;
+}
+
+img {
+  border-radius: 20px;
+}
+
+.score-conteiner {
+  background-color: #c3e0e5;
+  border-left: 2px solid;
+  border-radius: 0 20px 0 0;
+  color: #2f4858;
+  height: 10vh;
+  margin: 0;
+  opacity: 1;
+  padding: 1vh;
+  text-align: right;
+  width: 15%;
+}
