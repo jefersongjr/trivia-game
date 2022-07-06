@@ -77,7 +77,7 @@ class Login extends React.Component {
               <button
                 type="button"
                 data-testid="btn-play"
-                id="button-login"
+                id="play"
                 className="button-login"
                 disabled={ isDisable }
                 onClick={ this.buttonHandleClick }
@@ -87,7 +87,7 @@ class Login extends React.Component {
               <button
                 data-testid="btn-settings"
                 type="button"
-                id="button-config"
+                id="settings-title"
                 className="button-config"
               >
                 Configurações
