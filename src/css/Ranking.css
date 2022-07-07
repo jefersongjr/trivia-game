@@ -43,3 +43,23 @@ img {
   text-align: right;
   width: 20%;
 }
+
+.buttons-ranking {
+  background-color: #25a0ec;
+  border: 3px solid #c3e0e5;
+  border-radius: 20px;
+  color: white;
+  font-family: Titan One , cursive;
+  font-size: 30px;
+  font-weight: 200;
+  height: 15vh;
+  margin: auto;
+  padding: 5px;
+  width: 40%;
+}
+
+.button-ranking-container {
+  margin: auto;
+  padding-left: 50px ;
+  width: 80%;
+}

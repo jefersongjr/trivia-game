@@ -55,13 +55,17 @@ class Ranking extends React.Component {
               </li>
             ))}
         </ol>
-        <button
-          type="button"
-          onClick={ () => history.push('/') }
-          data-testid="btn-go-home"
-        >
-          Início
-        </button>
+        <div className="button-ranking-container">
+
+          <button
+            className="buttons-ranking"
+            type="button"
+            onClick={ () => history.push('/') }
+            data-testid="btn-go-home"
+          >
+            Início
+          </button>
+        </div>
       </div>
     );
   }
