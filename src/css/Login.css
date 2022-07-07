@@ -15,6 +15,7 @@ body {
   height: 40vh;
   justify-content: space-around;
   margin: 20vh auto;
+  min-width: max-content;
   padding: 40px 15px;
   width: 20vw;
 }
@@ -29,12 +30,12 @@ body {
   display: flex;
   flex-flow: column wrap;
   font-family: Pacifico , sans-serif;
-  font-size: 1.7rem;
+  font-size: 1.7em;
   line-height: 2.5rem;
   margin: auto;
+  min-width: max-content;
   text-align: center;
   width: 15vw;
-
 }
 
 .tittle {

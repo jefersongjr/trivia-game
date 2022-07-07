@@ -30,29 +30,42 @@ class Ranking extends React.Component {
     return (
       <div className="container-ranking">
         <h1 data-testid="ranking-title" className="ranking-tittle">Ranking:</h1>
-        <ol>
+        <ol className="ranking-list">
           {JSON.parse(localStorage.getItem('player'))
             .sort((a, b) => b.score - a.score)
             .map((player, i) => (
-              <li key={ i + 1 }>
+              <li key={ i + 1 } className="ranking-container">
                 <img
                   src={ this.getImgGravatar(player.email) }
                   alt="gravatar"
+                  className="gravatar"
                 />
                 <p data-testid={ `player-name-${player.user}` }>
                   {player.user}
                 </p>
-                <p data-testid={ `player-score-${player.score}` }>{player.score}</p>
+                <div className="score-conteiner">
+                  <p
+                    className="score-ranking"
+                    data-testid={ `player-score-${player.score}` }
+                  >
+                    {player.score}
+
+                  </p>
+                </div>
               </li>
             ))}
         </ol>
-        <button
-          type="button"
-          onClick={ () => history.push('/') }
-          data-testid="btn-go-home"
-        >
-          Início
-        </button>
+        <div className="button-ranking-container">
+
+          <button
+            className="buttons-ranking"
+            type="button"
+            onClick={ () => history.push('/') }
+            data-testid="btn-go-home"
+          >
+            Início
+          </button>
+        </div>
       </div>
     );
   }

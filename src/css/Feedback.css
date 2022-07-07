@@ -7,7 +7,8 @@
 .feedback-tittle {
   color: #2f4858;
   font-family: Pacifico , sans-serif;
-  font-size: 75px;
+  font-size: 2.5rem;
+  margin: 0;
 }
 
 .text-feedback-container {
@@ -17,8 +18,8 @@
   display: flex;
   flex-direction: column;
   font-family: Titan One , cursive;
-  font-size: 40px;
-  height: 400px;
+  font-size: 1.5rem;
+  height: 30vh;
   margin: 15px auto;
   opacity: 0.9;
   padding: 20px;
@@ -42,7 +43,7 @@
 
 .buttons-feedback-cotainer {
   margin: auto;
-  width: 30%;
+  width: 50%;
 }
 
 .buttons-feedback {
@@ -53,10 +54,10 @@
   font-family: Titan One , cursive;
   font-size: 30px;
   font-weight: 200;
-  height: 150px;
+  height: 15vh;
   margin: 0 0 30px 30px;
   min-width: min-content;
-  padding: 10px;
+  padding: 5px;
   width: 40%;
 }
 
