@@ -4,7 +4,7 @@
 
 ##  🚀📋 Sobre:
 
-**Trivia Game** foi o projeto desenvolvido em grupo por ,[Jeferson Gomes](https://www.linkedin.com/in/jefersongjr/),
+**Trivia Game** foi um projeto desenvolvido em grupo por ,[Jeferson Gomes](https://www.linkedin.com/in/jefersongjr/),
 [Fernanda Vidal](https://github.com/Fernanda-Vidal), [Maraíse Medeiros](https://github.com/Maraise-hub), [Roberto Luna](https://github.com/RobertoDLuna)
 e [Caio Pereira](https://github.com/caiopa),
 durante o curso de formação de desenvolvimento Full Stack da [Trybe](https://www.betrybe.com/), durante o módulo de Front End.
